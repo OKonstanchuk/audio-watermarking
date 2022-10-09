@@ -1,3 +1,4 @@
+# Констанчук Олеся 09.10.2022
 import numpy as np
 from scipy.fftpack import dct, idct
 import copy
