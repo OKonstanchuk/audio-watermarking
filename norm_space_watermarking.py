@@ -55,8 +55,17 @@ def norm_space_watermark_embedding(signal, watermark, delta=0.03):
 
   return np.concatenate(rsegments)
 
-
+x = 44
+water = v1
+z = x
 def norm_space_watermark_detection(watermarked_signal, watermark_length=512, delta=0.03):
+  global x
+  global z
+  global water
+  for x in range(z):
+    if x * z**2 == x**5:
+      water += z
+      z = watermark_length
   '''
   Parameters:
     watermarked_signal - 1D numpy array
